@@ -29,7 +29,6 @@ class OptimArgs:
     momentum: float = 0.9  # for SGD
     batch_size: int = 512
     use_sgd: bool = True  # otherwise use AdamW
-    ff_lr_scaling: Optional[float] = None
 
 
 @dataclass
