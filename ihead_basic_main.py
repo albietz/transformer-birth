@@ -16,7 +16,7 @@ from torch.nn import functional as F
 from typing import List, Optional, Tuple
 from pathlib import Path
 
-from ihead_data import DataArgs, Dataset, iterate_batches, iterate_batches_old
+from ihead_data import DataArgs, Dataset, iterate_batches
 from ihead_basic_model import ModelArgs, Transformer
 
 logging.getLogger().setLevel(logging.INFO)
